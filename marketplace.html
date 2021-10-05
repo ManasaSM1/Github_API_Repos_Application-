@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github API</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+       header ul li{
+        list-style-type:none;
+        padding-top: 10px;
+
+        float:left;
+    }
+    ol{
+        color: black;
+    }
+    ul{
+        list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+    }
+   li a{
+        display:block;
+        color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+    }
+   header ul li a:hover {
+  background-color: #111;
+}
+
+h3{
+    padding-top: 50px;
+    color:black;
+    padding-left: 30px;
+}
+p{
+    color: black;
+    padding-left: 30px;
+
+}
+    
+   
+    body{
+        background-color:white;
+        color:black;
+        }
+        
+    </style>
+    
+
+</head>
+<body>
+    <header>
+        
+        <ul>          
+           
+            <li><a href="index.html"><i class="fa fa-github fa-2x" ></i></a></li>
+           
+           <li>
+            <select name="git" id="git">
+                <option value="Whygithub">Why Github</option>
+                <option value="Features">Features</option>
+                <option value="Mobile">Mobile</option>
+                <option value="Actions">Actions</option>
+                <option value="Codespaces">Codespaces</option>
+                <option value="Package">Package</option>
+                <option value="Security">Security</option>
+                <option value="Code review">Code review</option>
+                <option value="issues">Issues</option>
+                <option value="integrators">Integrators</option>
+            </select></li>            
+            <li><a href="team.html">Team</a></li>
+            <li><a href="enterprise.html">Enterprise</li>
+
+            <li>
+                <select name="exp" id="esp">
+                    <option value="explore">Explore</option>
+                    <option value="Learn">Learn and contribute</option>
+                    <option value="Topics">Topics</option>
+                    <option value="Collections">Collections</option>
+                    <option value="Trending">Trending</option>
+                    <option value="Learning">Learning lab</option>
+                    <option value="open">Open source guide</option>
+                    <option value="Code review">Code review</option>
+                    <option value="readme">Read me projects</option>
+                    <option value="everything">Event</option>
+                     <option value="forum">Community forum</option>
+                    <option value="gitedu">Github education</option>
+                        </select></li>
+                        <li><a href="marketplace.html">Marketplace</a></li>
+            <li><select name="pr" id="pr">
+                <option value="Pricing">Pricing</option>
+                <option value="compare plans">Compare plans</option>
+                <option value="contact sales education">Contact sales</option>
+                <option value="education">Education</option>
+            </select></li>
+                    <li> <input type="text" id ="inputname" placeholder="Search github">
+                        <button onclick="foo()">Click</button></li>
+            <li><a href="#">Sign in</li>
+            <li><button type="button">Sign up</li>
+
+        </ul>
+       
+    </header>
+    
+    <h3><b>Extend GitHub</b></h3>
+    <p>Find tools to improve your workflow</p>
+    <button type="button" style="margin-left: 30px;">Explore free apps</button>
+    
+    <ol>
+        <li>Types</li>
+        <ol>
+            <li>Apps</li>
+            <li>Actions</li>
+        </ol>
+        
+    </ol>
+    <ol>
+        <li>Categories</li>
+        <ol>
+            <li>API management</li>
+            <li>Chat</li>
+            <li>Code quality</li>
+            <li>Code review</li>
+            <li>Continuous integration</li>
+            <li>Dependency management</li>
+            <li>Deployment</li>
+            <li>IDEs</li>
+
+            <li>Learning</li>
+            <li>Localization</li>
+            <li>Mobile</li>
+            <li>Monitoring</li>
+            <li>Project management</li>
+            <li>Publishing</li>
+            <li>Recently added</li>
+            <li>Security</li>
+            <li>Support</li>
+            <li>Testing</li>
+            
+        </ol>
+        
+    </ol>
+    <script src="index.js"></script>
+
+</body>
+</html>
